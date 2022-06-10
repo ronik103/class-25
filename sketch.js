@@ -91,7 +91,7 @@ function showBoats() {
   
   for(var i = 0; i < boats.length; i++) {
     if(boats[i]) {
-        Matter.Body.setVelocity(boats[i].body,{x:-9, y:0})
+        Matter.Body.setVelocity(boats[i].body,{x:-0.9, y:0})
         boats[i].display();
       }
     }
